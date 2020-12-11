@@ -11,6 +11,9 @@
 		9561580925835E7900D1AC42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561580825835E7900D1AC42 /* ContentView.swift */; };
 		9561580B25835E7C00D1AC42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9561580A25835E7C00D1AC42 /* Assets.xcassets */; };
 		9561580E25835E7C00D1AC42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9561580D25835E7C00D1AC42 /* Preview Assets.xcassets */; };
+		9561581825835EB600D1AC42 /* TetrisGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561581725835EB600D1AC42 /* TetrisGameViewModel.swift */; };
+		9561581D25835FFF00D1AC42 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561581C25835FFF00D1AC42 /* Color.swift */; };
+		95615822258360E700D1AC42 /* TetrisGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95615821258360E700D1AC42 /* TetrisGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		9561580A25835E7C00D1AC42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9561580D25835E7C00D1AC42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9561580F25835E7C00D1AC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9561581725835EB600D1AC42 /* TetrisGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisGameViewModel.swift; sourceTree = "<group>"; };
+		9561581C25835FFF00D1AC42 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		95615821258360E700D1AC42 /* TetrisGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 		9561580525835E7900D1AC42 /* TetrisInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				95615820258360C900D1AC42 /* View */,
+				9561581B25835FF000D1AC42 /* Extension */,
+				9561581625835E9E00D1AC42 /* ViewModel */,
 				9561580625835E7900D1AC42 /* TetrisInSwiftUIApp.swift */,
 				9561580825835E7900D1AC42 /* ContentView.swift */,
 				9561580A25835E7C00D1AC42 /* Assets.xcassets */,
@@ -67,6 +76,30 @@
 				9561580D25835E7C00D1AC42 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9561581625835E9E00D1AC42 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9561581725835EB600D1AC42 /* TetrisGameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9561581B25835FF000D1AC42 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9561581C25835FFF00D1AC42 /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		95615820258360C900D1AC42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95615821258360E700D1AC42 /* TetrisGameView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9561580925835E7900D1AC42 /* ContentView.swift in Sources */,
+				95615822258360E700D1AC42 /* TetrisGameView.swift in Sources */,
+				9561581D25835FFF00D1AC42 /* Color.swift in Sources */,
 				9561580725835E7900D1AC42 /* TetrisInSwiftUIApp.swift in Sources */,
+				9561581825835EB600D1AC42 /* TetrisGameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
