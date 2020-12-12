@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0C43EC2584BEAB00633E7F /* TetrisGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C43EB2584BEAB00633E7F /* TetrisGameModel.swift */; };
 		9561580725835E7900D1AC42 /* TetrisInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561580625835E7900D1AC42 /* TetrisInSwiftUIApp.swift */; };
 		9561580925835E7900D1AC42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561580825835E7900D1AC42 /* ContentView.swift */; };
 		9561580B25835E7C00D1AC42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9561580A25835E7C00D1AC42 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D0C43EB2584BEAB00633E7F /* TetrisGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisGameModel.swift; sourceTree = "<group>"; };
 		9561580325835E7900D1AC42 /* TetrisInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetrisInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9561580625835E7900D1AC42 /* TetrisInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisInSwiftUIApp.swift; sourceTree = "<group>"; };
 		9561580825835E7900D1AC42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D0C43EA2584BE9200633E7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D0C43EB2584BEAB00633E7F /* TetrisGameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		956157FA25835E7900D1AC42 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		9561580525835E7900D1AC42 /* TetrisInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1D0C43EA2584BE9200633E7F /* Model */,
 				95615820258360C900D1AC42 /* View */,
 				9561581B25835FF000D1AC42 /* Extension */,
 				9561581625835E9E00D1AC42 /* ViewModel */,
@@ -173,6 +184,7 @@
 			files = (
 				9561580925835E7900D1AC42 /* ContentView.swift in Sources */,
 				95615822258360E700D1AC42 /* TetrisGameView.swift in Sources */,
+				1D0C43EC2584BEAB00633E7F /* TetrisGameModel.swift in Sources */,
 				9561581D25835FFF00D1AC42 /* Color.swift in Sources */,
 				9561580725835E7900D1AC42 /* TetrisInSwiftUIApp.swift in Sources */,
 				9561581825835EB600D1AC42 /* TetrisGameViewModel.swift in Sources */,
